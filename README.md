@@ -94,7 +94,7 @@ Sales-Business-Performance-Analytics/
 └── requirements.txt
 
 
-##### 📊 Dataset Overview
+#📊 Dataset Overview
 
 The dataset contains 1,200 sales records representing customers, products, categories, regions, states, cities, shipping modes, sales, discounts, and profits.
 
