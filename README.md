@@ -133,7 +133,7 @@ Profit Margin
 
 The raw dataset was cleaned and prepared using Python and Pandas before performing analysis.
 
-##### Data Cleaning Steps
+## Data Cleaning Steps
 Loaded the raw CSV dataset
 Inspected dataset structure
 Checked for missing values
@@ -154,7 +154,7 @@ The final cleaned dataset contains:
 
 The cleaned dataset was then used for Python analysis, SQL analysis, and Power BI visualization.
 
-#### 🐍 Python Exploratory Data Analysis
+## 🐍 Python Exploratory Data Analysis
 
 Python was used to explore the cleaned dataset and understand different aspects of business performance.
 
@@ -175,7 +175,7 @@ matplotlib
 
 The analysis helped identify important trends and patterns before building the final dashboard.
 
-##### 🗄️ SQL Analysis
+## 🗄️ SQL Analysis
 
 The cleaned dataset was imported into a MySQL database for structured business analysis.
 
@@ -214,7 +214,7 @@ HAVING
 Aggregate Functions
 Business-oriented SQL queries
 
-#### 📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
 An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
 
@@ -226,7 +226,7 @@ The dashboard converts analytical results into interactive visual reports that c
 
 These KPIs provide a high-level summary of the overall business performance.
 
-📸 Dashboard Screenshots
+
 1. Dashboard Overview
 
 2. Sales & Profit Analysis
@@ -280,7 +280,7 @@ These KPIs provide a high-level summary of the overall business performance.
 <img width="654" height="259" alt="image" src="https://github.com/user-attachments/assets/b8b4ecb9-9957-434d-a534-b6a493c57faa" />
 
 
-#### 💡 Business Recommendations
+## 💡 Business Recommendations
 
 Based on the analysis, the following recommendations can be considered:
 
@@ -309,7 +309,7 @@ The Central region has comparatively lower sales and profit. Regional marketing 
 
 Regular monitoring of monthly sales can help identify seasonal patterns and support better inventory, marketing, and sales planning.
 
-#### 🎓 Skills Demonstrated
+## 🎓 Skills Demonstrated
 Data Analytics
 Data Cleaning
 Data Preprocessing
@@ -339,7 +339,7 @@ Slicers
 Business Reporting
 Data Visualization
 
-#### 🚀 Project Workflow
+## 🚀 Project Workflow
 Raw Dataset
      ↓
 Data Cleaning
@@ -356,7 +356,7 @@ Business Insights
      ↓
 Recommendations
 
-#### 📌 Project Outcome
+## 📌 Project Outcome
 
 This project demonstrates how raw sales data can be transformed into meaningful business insights through an end-to-end analytics workflow.
 
@@ -368,7 +368,7 @@ to support data-driven decision-making.
 
 
 
-#### 👩‍💻 Author
+## 👩‍💻 Author
 Pratiksha Tomar
 
 B.Tech AI/ML Student | Aspiring Data Analyst
