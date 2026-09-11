@@ -1,3 +1,99 @@
+# 📊 Sales & Business Performance Analytics
+
+An end-to-end **Data Analytics project** that transforms raw sales data into meaningful business insights using **Python, SQL, MySQL, and Power BI**.
+
+This project was developed as part of my **Data Analytics Internship at 3Skill Training**, providing practical experience in data cleaning, exploratory data analysis, SQL-based business analysis, dashboard development, and insight generation.
+
+---
+
+## 👩‍💻 3Skill Training Internship Context
+
+**Internship:** Data Analytics Internship  
+**Organization:** 3Skill Training  
+**Project:** Sales & Business Performance Analytics
+
+This project was developed as part of my internship learning experience at **3Skill Training**.
+
+The project follows a complete data analytics workflow:
+
+> **Raw Dataset → Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
+
+The objective was to apply practical data analytics concepts to a structured sales dataset and convert raw data into useful business information for decision-making.
+
+---
+
+## 🎯 Project Objective
+
+The primary objective of this project is to analyze sales and business performance data and identify important trends, patterns, and opportunities.
+
+### Key Objectives
+
+- Analyze overall sales and profit performance
+- Identify monthly sales trends
+- Compare category and sub-category performance
+- Identify top-performing products
+- Identify loss-making products
+- Analyze customer segments
+- Compare regional and state-wise performance
+- Analyze shipping modes
+- Evaluate year-wise sales growth
+- Calculate important business KPIs
+- Generate actionable business recommendations
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool / Technology | Purpose |
+|---|---|
+| 🐍 Python | Data Cleaning & Exploratory Data Analysis |
+| 🐼 Pandas | Data Manipulation & Analysis |
+| 📊 Matplotlib | Data Visualization |
+| 🗄️ MySQL | Database Management |
+| 💻 SQL | Business Data Analysis |
+| 📈 Power BI | Interactive Dashboard & Reporting |
+| 📁 CSV | Dataset Storage |
+| 🔧 VS Code | Development Environment |
+
+---
+
+## 📂 Project Structure
+
+```text
+Sales-Business-Performance-Analytics/
+│
+├── data/
+│   ├── raw/
+│   │   └── superstore_raw_practice.csv
+│   │
+│   └── cleaned/
+│       └── superstore_cleaned_data.csv
+│
+├── python/
+│   ├── data_cleaning.py
+│   ├── exploratory_analysis.py
+│   └── visualizations.py
+│
+├── sql/
+│   ├── create_database.sql
+│   ├── create_table.sql
+│   └── analysis_queries.sql
+│
+├── powerbi/
+│   └── Sales_Business_Performance_Analytics_Dashboard.pbix
+│
+├── images/
+│   ├── dashboard_overview.png
+│   ├── sales_profit_analysis.png
+│   ├── monthly_sales_trend.png
+│   ├── category_analysis.png
+│   ├── regional_analysis.png
+│   └── product_analysis.png
+│
+├── README.md
+└── requirements.txt
+
+
 
   #### Screenshots
 
