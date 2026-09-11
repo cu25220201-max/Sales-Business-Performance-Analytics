@@ -1,10 +1,10 @@
-#### 📊 Sales & Business Performance Analytics
+## 📊 Sales & Business Performance Analytics
 
 An end-to-end Data Analytics project that transforms raw sales data into meaningful business insights using Python, SQL, MySQL, and Power BI.
 
 This project was developed as part of my Data Analytics Internship at 3Skill Training, providing practical experience in data cleaning, exploratory data analysis, SQL-based business analysis, dashboard development, and insight generation.
 
-#### 👩‍💻 3Skill Training Internship Context
+## 👩‍💻 3Skill Training Internship Context
 
 Internship: Data Analytics Internship
 Organization: 3Skill Training
@@ -18,11 +18,11 @@ Raw Dataset → Data Cleaning → Exploratory Data Analysis → SQL Analysis →
 
 The objective was to apply practical data analytics concepts to a structured sales dataset and convert raw data into useful business information for decision-making.
 
-#### 🎯 Project Objective
+## 🎯 Project Objective
 
 The primary objective of this project is to analyze sales and business performance data and identify important trends, patterns, and opportunities.
 
-## Key Objectives
+#### Key Objectives
 Analyze overall sales and profit performance
 Identify monthly sales trends
 Compare category and sub-category performance
@@ -35,7 +35,7 @@ Evaluate year-wise sales growth
 Calculate important business KPIs
 Generate actionable business recommendations
 
-#### 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 Tool / Technology	Purpose
 🐍 Python	Data Cleaning & Exploratory Data Analysis
 🐼 Pandas	Data Manipulation & Analysis
@@ -47,7 +47,7 @@ Tool / Technology	Purpose
 🔧 VS Code	Development Environment
 📂 Project Structure
 
-#### Sales-Business-Performance-Analytics/
+## Sales-Business-Performance-Analytics/
 
 📁 data/
 → 📁 raw/
@@ -80,11 +80,11 @@ README.md
 
 requirements.txt
 
-#### 🧹 Data Cleaning & Preparation
+## 🧹 Data Cleaning & Preparation
 
 The raw dataset was cleaned and prepared using Python and Pandas before performing analysis.
 
-#### Data Cleaning Steps
+## Data Cleaning Steps
 Loaded the raw CSV dataset
 Inspected dataset structure
 Checked for missing values
@@ -105,7 +105,7 @@ The final cleaned dataset contains:
 
 The cleaned dataset was then used for Python analysis, SQL analysis, and Power BI visualization.
 
-#### 🐍 Python Exploratory Data Analysis
+## 🐍 Python Exploratory Data Analysis
 
 Python was used to explore the cleaned dataset and understand different aspects of business performance.
 
@@ -126,7 +126,7 @@ Matplotlib
 
 The analysis helped identify important trends and patterns before building the final dashboard.
 
-#### 🗄️ SQL Analysis
+## 🗄️ SQL Analysis
 
 The cleaned dataset was imported into a MySQL database for structured business analysis.
 
@@ -167,7 +167,7 @@ HAVING
 Aggregate Functions
 Business-oriented SQL queries
 
-#### 📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
 An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
 
