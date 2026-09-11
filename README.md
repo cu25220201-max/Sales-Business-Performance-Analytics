@@ -1,98 +1,179 @@
-# 📊 Sales & Business Performance Analytics
+#### 📊 Sales & Business Performance Analytics
 
-An end-to-end **Data Analytics project** that transforms raw sales data into meaningful business insights using **Python, SQL, MySQL, and Power BI**.
+An end-to-end Data Analytics project that transforms raw sales data into meaningful business insights using Python, SQL, MySQL, and Power BI.
 
-This project was developed as part of my **Data Analytics Internship at 3Skill Training**, providing practical experience in data cleaning, exploratory data analysis, SQL-based business analysis, dashboard development, and insight generation.
+This project was developed as part of my Data Analytics Internship at 3Skill Training, providing practical experience in data cleaning, exploratory data analysis, SQL-based business analysis, dashboard development, and insight generation.
 
----
+#### 👩‍💻 3Skill Training Internship Context
 
-## 👩‍💻 3Skill Training Internship Context
+Internship: Data Analytics Internship
+Organization: 3Skill Training
+Project: Sales & Business Performance Analytics
 
-**Internship:** Data Analytics Internship  
-**Organization:** 3Skill Training  
-**Project:** Sales & Business Performance Analytics
-
-This project was developed as part of my internship learning experience at **3Skill Training**.
+This project was developed as part of my internship learning experience at 3Skill Training.
 
 The project follows a complete data analytics workflow:
 
-> **Raw Dataset → Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
+Raw Dataset → Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights
 
 The objective was to apply practical data analytics concepts to a structured sales dataset and convert raw data into useful business information for decision-making.
 
----
-
-## 🎯 Project Objective
+#### 🎯 Project Objective
 
 The primary objective of this project is to analyze sales and business performance data and identify important trends, patterns, and opportunities.
 
-### Key Objectives
+## Key Objectives
+Analyze overall sales and profit performance
+Identify monthly sales trends
+Compare category and sub-category performance
+Identify top-performing products
+Identify loss-making products
+Analyze customer segments
+Compare regional and state-wise performance
+Analyze shipping modes
+Evaluate year-wise sales growth
+Calculate important business KPIs
+Generate actionable business recommendations
 
-- Analyze overall sales and profit performance
-- Identify monthly sales trends
-- Compare category and sub-category performance
-- Identify top-performing products
-- Identify loss-making products
-- Analyze customer segments
-- Compare regional and state-wise performance
-- Analyze shipping modes
-- Evaluate year-wise sales growth
-- Calculate important business KPIs
-- Generate actionable business recommendations
+#### 🛠️ Tools & Technologies
+Tool / Technology	Purpose
+🐍 Python	Data Cleaning & Exploratory Data Analysis
+🐼 Pandas	Data Manipulation & Analysis
+📊 Matplotlib	Data Visualization
+🗄️ MySQL	Database Management
+💻 SQL	Business Data Analysis
+📈 Power BI	Interactive Dashboard & Reporting
+📁 CSV	Dataset Storage
+🔧 VS Code	Development Environment
+📂 Project Structure
 
----
+#### Sales-Business-Performance-Analytics/
 
-## 🛠️ Tools & Technologies
+📁 data/
+→ 📁 raw/
+→ superstore_raw_practice.csv
+→ 📁 cleaned/
+→ superstore_cleaned_data.csv
 
-| Tool / Technology | Purpose |
-|---|---|
-| 🐍 Python | Data Cleaning & Exploratory Data Analysis |
-| 🐼 Pandas | Data Manipulation & Analysis |
-| 📊 Matplotlib | Data Visualization |
-| 🗄️ MySQL | Database Management |
-| 💻 SQL | Business Data Analysis |
-| 📈 Power BI | Interactive Dashboard & Reporting |
-| 📁 CSV | Dataset Storage |
-| 🔧 VS Code | Development Environment |
+📁 python/
+→ data_cleaning.py
+→ exploratory_analysis.py
+→ visualizations.py
 
----
+📁 sql/
+→ create_database.sql
+→ create_table.sql
+→ analysis_queries.sql
 
-## 📂 Project Structure
+📁 powerbi/
+→ Sales_Business_Performance_Analytics_Dashboard.pbix
 
-```text
-Sales-Business-Performance-Analytics/
-│
-├── data/
-│   ├── raw/
-│   │   └── superstore_raw_practice.csv
-│   │
-│   └── cleaned/
-│       └── superstore_cleaned_data.csv
-│
-├── python/
-│   ├── data_cleaning.py
-│   ├── exploratory_analysis.py
-│   └── visualizations.py
-│
-├── sql/
-│   ├── create_database.sql
-│   ├── create_table.sql
-│   └── analysis_queries.sql
-│
-├── powerbi/
-│   └── Sales_Business_Performance_Analytics_Dashboard.pbix
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── sales_profit_analysis.png
-│   ├── monthly_sales_trend.png
-│   ├── category_analysis.png
-│   ├── regional_analysis.png
-│   └── product_analysis.png
-│
-├── README.md
-└── requirements.txt
+📁 images/
+→ dashboard_overview.png
+→ sales_profit_analysis.png
+→ monthly_sales_trend.png
+→ category_analysis.png
+→ regional_analysis.png
+→ product_analysis.png
 
+README.md
+
+requirements.txt
+
+#### 🧹 Data Cleaning & Preparation
+
+The raw dataset was cleaned and prepared using Python and Pandas before performing analysis.
+
+#### Data Cleaning Steps
+Loaded the raw CSV dataset
+Inspected dataset structure
+Checked for missing values
+Checked for duplicate records
+Standardized column names
+Converted date columns into appropriate date formats
+Converted numerical columns into appropriate data types
+Created Year and Month fields
+Created Month Name
+Calculated Profit Margin
+Removed unnecessary duplicate records
+Exported the final cleaned dataset
+Cleaned Dataset
+
+The final cleaned dataset contains:
+
+1,200 records × 24 columns
+
+The cleaned dataset was then used for Python analysis, SQL analysis, and Power BI visualization.
+
+#### 🐍 Python Exploratory Data Analysis
+
+Python was used to explore the cleaned dataset and understand different aspects of business performance.
+
+Analysis Performed
+Sales distribution analysis
+Profit distribution analysis
+Monthly sales trend analysis
+Category-wise sales analysis
+Sub-category performance analysis
+Regional performance analysis
+Customer segment analysis
+Top-performing product analysis
+Loss-making product analysis
+Profit margin analysis
+Python Libraries
+Pandas
+Matplotlib
+
+The analysis helped identify important trends and patterns before building the final dashboard.
+
+#### 🗄️ SQL Analysis
+
+The cleaned dataset was imported into a MySQL database for structured business analysis.
+
+Database
+
+Database: sales_analytics
+Table: sales_data
+
+SQL Analysis Includes
+Total Sales
+Total Profit
+Total Orders
+Total Customers
+Total Quantity
+Average Order Value
+Monthly Sales
+Category Performance
+Sub-Category Performance
+Top Products
+Loss-Making Products
+Customer Segment Analysis
+Region-wise Performance
+State-wise Performance
+City-wise Performance
+Shipping Mode Analysis
+Year-wise Performance
+Profit Margin Analysis
+SQL Concepts Used
+SELECT
+WHERE
+GROUP BY
+ORDER BY
+COUNT()
+SUM()
+AVG()
+DISTINCT
+HAVING
+Aggregate Functions
+Business-oriented SQL queries
+
+#### 📈 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
+
+SALES & BUSINESS PERFORMANCE ANALYTICS DASHBOARD
+
+The dashboard converts analytical results into interactive visual reports that can be used to understand business performance quickly.
 
 
   #### Screenshots
