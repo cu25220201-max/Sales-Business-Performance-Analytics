@@ -94,7 +94,7 @@ Sales-Business-Performance-Analytics/
 └── requirements.txt
 
 
-#📊 Dataset Overview
+## 📊 Dataset Overview
 
 The dataset contains 1,200 sales records representing customers, products, categories, regions, states, cities, shipping modes, sales, discounts, and profits.
 
@@ -133,7 +133,7 @@ Profit Margin
 
 The raw dataset was cleaned and prepared using Python and Pandas before performing analysis.
 
-## Data Cleaning Steps
+#### Data Cleaning Steps
 Loaded the raw CSV dataset
 Inspected dataset structure
 Checked for missing values
@@ -154,7 +154,7 @@ The final cleaned dataset contains:
 
 The cleaned dataset was then used for Python analysis, SQL analysis, and Power BI visualization.
 
-## 🐍 Python Exploratory Data Analysis
+#### 🐍 Python Exploratory Data Analysis
 
 Python was used to explore the cleaned dataset and understand different aspects of business performance.
 
@@ -179,7 +179,7 @@ The analysis helped identify important trends and patterns before building the f
 
 The cleaned dataset was imported into a MySQL database for structured business analysis.
 
-## Database
+#### Database
 Database: sales_analytics
 Table: sales_data
 SQL Analysis Includes
@@ -214,7 +214,7 @@ HAVING
 Aggregate Functions
 Business-oriented SQL queries
 
-## 📈 Power BI Dashboard
+#### 📈 Power BI Dashboard
 
 An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
 
