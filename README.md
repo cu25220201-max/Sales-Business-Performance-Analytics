@@ -48,7 +48,7 @@ Tool / Technology	Purpose
 📂 Project Structure
 
 ## Sales-Business-Performance-Analytics/
-
+````txt
 📁 data/
 → 📁 raw/
 → superstore_raw_practice.csv
@@ -79,6 +79,7 @@ Tool / Technology	Purpose
 README.md
 
 requirements.txt
+````
 
 ## 🧹 Data Cleaning & Preparation
 
