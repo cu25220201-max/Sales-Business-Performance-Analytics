@@ -1,76 +1,244 @@
-# Sales & Business Performance Analytics
+# 📊 Sales & Business Performance Analytics
 
-## Project Overview
+An end-to-end **Data Analytics project** that transforms raw sales data into meaningful business insights using **Python, SQL, MySQL, and Power BI**.
 
-This project analyzes e-commerce/retail sales data to identify
-sales trends, profitable products, customer behavior and
-regional performance.
+This project was developed as part of my **Data Analytics Internship at 3Skill Training**, providing practical experience in data cleaning, exploratory data analysis, SQL-based business analysis, dashboard development, and insight generation.
 
-## Objectives
+---
 
-- Clean raw sales data
-- Perform exploratory data analysis
-- Analyze data using SQL
-- Create business insights
-- Build an interactive Power BI dashboard
+## 👩‍💻 3Skill Training Internship Context
 
-## Technologies Used
+**Internship:** Data Analytics Internship  
+**Organization:** 3Skill Training  
+**Project:** Sales & Business Performance Analytics
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- MySQL
-- SQL
-- Power BI
+This project was developed as part of my internship learning experience at **3Skill Training**.
 
-## Project Workflow
+The project follows a complete data analytics workflow:
 
-Raw Dataset
-↓
-Data Cleaning
-↓
-Exploratory Data Analysis
-↓
-MySQL
-↓
-SQL Analysis
-↓
-Power BI Dashboard
-↓
-Business Insights
+> **Raw Dataset → Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
 
-## Key Analysis
+The objective was to apply practical data analytics concepts to a structured sales dataset and convert raw data into useful business information for decision-making.
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Customers
-- Monthly Sales
-- Category-wise Sales
-- Category-wise Profit
-- Top 10 Products
-- Top Customers
-- State-wise Sales
-- Customer Segment Analysis
-- Payment Mode Analysis
+---
 
-## Dashboard
+## 🎯 Project Objective
 
-The Power BI dashboard contains:
+The primary objective of this project is to analyze sales and business performance data and identify important trends, patterns, and opportunities.
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Customers
-- Monthly Sales Trend
-- Category-wise Sales
-- Top 10 Products
-- State-wise Sales
-- Profit by Category
-- Customer Segment
-- Payment Mode Analysis
+### Key Objectives
+
+- Analyze overall sales and profit performance
+- Identify monthly sales trends
+- Compare category and sub-category performance
+- Identify top-performing products
+- Identify loss-making products
+- Analyze customer segments
+- Compare regional and state-wise performance
+- Analyze shipping modes
+- Evaluate year-wise sales growth
+- Calculate important business KPIs
+- Generate actionable business recommendations
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool / Technology | Purpose |
+|---|---|
+| 🐍 Python | Data Cleaning & Exploratory Data Analysis |
+| 🐼 Pandas | Data Manipulation & Analysis |
+| 📊 Matplotlib | Data Visualization |
+| 🗄️ MySQL | Database Management |
+| 💻 SQL | Business Data Analysis |
+| 📈 Power BI | Interactive Dashboard & Reporting |
+| 📁 CSV | Dataset Storage |
+| 🔧 VS Code | Development Environment |
+
+---
+
+## 📂 Project Structure
+
+```text
+Sales-Business-Performance-Analytics/
+│
+├── data/
+│   ├── raw/
+│   │   └── superstore_raw_practice.csv
+│   │
+│   └── cleaned/
+│       └── superstore_cleaned_data.csv
+│
+├── python/
+│   ├── data_cleaning.py
+│   ├── exploratory_analysis.py
+│   └── visualizations.py
+│
+├── sql/
+│   ├── create_database.sql
+│   ├── create_table.sql
+│   └── analysis_queries.sql
+│
+├── powerbi/
+│   └── Sales_Business_Performance_Analytics_Dashboard.pbix
+│
+├── images/
+│   ├── dashboard_overview.png
+│   ├── sales_profit_analysis.png
+│   ├── monthly_sales_trend.png
+│   ├── category_analysis.png
+│   ├── regional_analysis.png
+│   └── product_analysis.png
+│
+├── README.md
+└── requirements.txt
+
+
+##### 📊 Dataset Overview
+
+The dataset contains 1,200 sales records representing customers, products, categories, regions, states, cities, shipping modes, sales, discounts, and profits.
+
+Dataset Information
+Records: 1,200
+Columns: 24
+Time Period: 2024–2025
+Data Type: Structured sales/business data
+Format: CSV
+Dataset Columns
+Order ID
+Order Date
+Ship Date
+Ship Mode
+Customer ID
+Customer Name
+Segment
+Country
+City
+State
+Postal Code
+Region
+Product ID
+Category
+Sub-Category
+Product Name
+Sales
+Quantity
+Discount
+Profit
+Year
+Month
+Month Name
+Profit Margin
+🧹 Data Cleaning
+
+The raw dataset was cleaned and prepared using Python and Pandas before performing analysis.
+
+##### Data Cleaning Steps
+Loaded the raw CSV dataset
+Inspected dataset structure
+Checked for missing values
+Checked for duplicate records
+Standardized column names
+Converted date columns into appropriate date formats
+Converted numerical columns into appropriate data types
+Created Year and Month fields
+Created Month Name
+Calculated Profit Margin
+Removed unnecessary duplicate records
+Exported the final cleaned dataset
+Cleaned Dataset
+
+The final cleaned dataset contains:
+
+1,200 records × 24 columns
+
+The cleaned dataset was then used for Python analysis, SQL analysis, and Power BI visualization.
+
+#### 🐍 Python Exploratory Data Analysis
+
+Python was used to explore the cleaned dataset and understand different aspects of business performance.
+
+Analysis Performed
+Sales distribution analysis
+Profit distribution analysis
+Monthly sales trend analysis
+Category-wise sales analysis
+Sub-category performance analysis
+Regional performance analysis
+Customer segment analysis
+Top-performing product analysis
+Loss-making product analysis
+Profit margin analysis
+Python Libraries
+pandas
+matplotlib
+
+The analysis helped identify important trends and patterns before building the final dashboard.
+
+##### 🗄️ SQL Analysis
+
+The cleaned dataset was imported into a MySQL database for structured business analysis.
+
+## Database
+Database: sales_analytics
+Table: sales_data
+SQL Analysis Includes
+Total Sales
+Total Profit
+Total Orders
+Total Customers
+Total Quantity
+Average Order Value
+Monthly Sales
+Category Performance
+Sub-Category Performance
+Top Products
+Loss-Making Products
+Customer Segment Analysis
+Region-wise Performance
+State-wise Performance
+City-wise Performance
+Shipping Mode Analysis
+Year-wise Performance
+Profit Margin Analysis
+SQL Concepts Used
+SELECT
+WHERE
+GROUP BY
+ORDER BY
+COUNT()
+SUM()
+AVG()
+DISTINCT
+HAVING
+Aggregate Functions
+Business-oriented SQL queries
+
+#### 📈 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to provide a consolidated view of sales and business performance.
+
+#### SALES & BUSINESS PERFORMANCE ANALYTICS DASHBOARD
+
+The dashboard converts analytical results into interactive visual reports that can be used to understand business performance quickly.
+
+
+
+These KPIs provide a high-level summary of the overall business performance.
+
+📸 Dashboard Screenshots
+1. Dashboard Overview
+
+2. Sales & Profit Analysis
+
+3. Monthly Sales Trend
+
+4. Category Analysis
+
+5. Regional Analysis
+
+6. Product Analysis
+
 
   #### Screenshots
 
@@ -106,28 +274,123 @@ The Power BI dashboard contains:
 
 <img width="335" height="218" alt="image" src="https://github.com/user-attachments/assets/19b9a40b-842e-45cf-93c1-4308a4572ba7" />
 
-<img width="325" height="227" alt="image" src="https://github.com/user-attachments/assets/e847f407-9fbf-480a-b124-dcffabedb36a" />
-
-<img width="443" height="240" alt="image" src="https://github.com/user-attachments/assets/13c32f66-ae71-4f3a-8c04-f7be055a4636" />
-
-<img width="398" height="330" alt="image" src="https://github.com/user-attachments/assets/a0518a0e-31c2-4c06-855a-bb01bd99d47c" />
-
-<img width="371" height="334" alt="image" src="https://github.com/user-attachments/assets/aa3c453b-d401-41cc-9f17-165ab9ba2482" />
-
-<img width="371" height="233" alt="image" src="https://github.com/user-attachments/assets/f662bdda-7e5c-4d1d-8085-cd157d69b358" />
-
-<img width="276" height="385" alt="image" src="https://github.com/user-attachments/assets/49d2f239-5ef2-46e5-9973-6ddc5fa751c2" />
-
-<img width="409" height="392" alt="image" src="https://github.com/user-attachments/assets/dbaa1a68-21f1-456e-852b-0f0bea22b0f4" />
-
-
-<img width="394" height="291" alt="image" src="https://github.com/user-attachments/assets/dc3a2708-c1df-46b1-8374-eeb662dadbf6" />
 
 <img width="612" height="436" alt="image" src="https://github.com/user-attachments/assets/e197fd2b-e75b-4853-b0cb-fe185082c597" />
 
 <img width="654" height="259" alt="image" src="https://github.com/user-attachments/assets/b8b4ecb9-9957-434d-a534-b6a493c57faa" />
 
 
+#### 💡 Business Recommendations
+
+Based on the analysis, the following recommendations can be considered:
+
+1. Review Loss-Making Products
+
+Analyze products with negative profit and evaluate:
+
+Pricing strategy
+Discount levels
+Procurement costs
+Shipping costs
+Product demand
+2. Focus on High-Performing Categories
+
+Furniture and Technology show strong sales performance and can be prioritized for future growth strategies.
+
+3. Strengthen the Consumer Segment
+
+Since the Consumer segment contributes the highest sales, targeted marketing and customer retention strategies can be developed for this segment.
+
+4. Improve Central Region Performance
+
+The Central region has comparatively lower sales and profit. Regional marketing and customer acquisition strategies can be explored.
+
+5. Monitor Monthly Sales Trends
+
+Regular monitoring of monthly sales can help identify seasonal patterns and support better inventory, marketing, and sales planning.
+
+#### 🎓 Skills Demonstrated
+Data Analytics
+Data Cleaning
+Data Preprocessing
+Exploratory Data Analysis
+Business Analysis
+KPI Development
+Business Insight Generation
+Python
+Python
+Pandas
+Matplotlib
+Data Manipulation
+Data Analysis
+Data Visualization
+SQL & MySQL
+SQL Querying
+Database Management
+Aggregation
+Filtering
+Grouping
+Business Analysis
+Power BI
+Dashboard Development
+KPI Cards
+Interactive Visualizations
+Slicers
+Business Reporting
+Data Visualization
+
+#### 🚀 Project Workflow
+Raw Dataset
+     ↓
+Data Cleaning
+     ↓
+Python EDA
+     ↓
+MySQL Database
+     ↓
+SQL Business Analysis
+     ↓
+Power BI Dashboard
+     ↓
+Business Insights
+     ↓
+Recommendations
+
+#### 📌 Project Outcome
+
+This project demonstrates how raw sales data can be transformed into meaningful business insights through an end-to-end analytics workflow.
+
+The project combines:
+
+Python + SQL + MySQL + Power BI
+
+to support data-driven decision-making.
+
+
+
+#### 👩‍💻 Author
+Pratiksha Tomar
+
+B.Tech AI/ML Student | Aspiring Data Analyst
+
+Technical Skills
+
+Python SQL MySQL Power BI Pandas Matplotlib Data Analytics Machine Learning
+
+#DataAnalytics
+#Python
+#SQL
+#MySQL
+#PowerBI
+#Pandas
+#DataVisualization
+#BusinessAnalytics
+#DataScience
+#Analytics
+#Internship
+#3SkillTraining
+#BTech
+#AIandML
 
 
 
